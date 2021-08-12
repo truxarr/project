@@ -1,0 +1,54 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+}
+.login{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    
+}
+.login h1{ 
+    float: left;
+    font-size: 35px;
+    border-bottom: 5px solid #1abc9c;
+    margin-bottom: 40px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    border-bottom: 1px solid #1abc9c;
+    margin: 8px 0;
+    padding: 8px 0;
+    overflow:hidden;
+    font-size: 20px;
+}
+.textbox i{
+    float: left;
+    width: 20px;
+    text-align: center;
+}
+.textbox input{
+    width: 90%;
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+}
+.btn{
+    border: 2px solid #1abc9c;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
